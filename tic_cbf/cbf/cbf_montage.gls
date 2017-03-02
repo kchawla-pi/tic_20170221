@@ -1,0 +1,12 @@
+BEGIN
+RESETDEFAULTS
+LOADIMAGE('positive.mean.pwi.nii.gz');
+COLORNAME ('1hot')
+COLORBARVISIBLE(FALSE)
+//SLICETEXT (TRUE)
+MOSAIC('V 0; H 0; A 0.2 0.25 0.3 0.35; A 0.4 .45 0.5 0.55; A 0.6 0.65 0.7 0.75;');
+//MOSAICFORMVISIBLE(TRUE);
+SAVEBMP('/Users/bkraft/cenc/mriData/34P1001/functional/cbf/methods/results/positive.mean.pwi.png');
+
+QUIT
+END.

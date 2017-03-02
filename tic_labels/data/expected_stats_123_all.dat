@@ -1,0 +1,4 @@
+   label  volume  com_x  com_y  com_z com_in  bb_dx  bb_dy  bb_dz  bb_dmin  bb_volume  fill_factor
+0    1.0  2415.0   51.0   56.0   65.0  False   37.0   50.0   36.0     36.0    66600.0     0.036261
+1    2.0     3.0   42.0   66.0   66.0   True    1.0    2.0    2.0      1.0        4.0     0.750000
+2    3.0   150.0   47.0  136.0   57.0  False    5.0    7.0    9.0      5.0      315.0     0.476190

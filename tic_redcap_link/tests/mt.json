@@ -1,0 +1,13 @@
+{
+    "subject_id": "CAHTEST1",
+    "mt_analyst": "cah",
+    "mt_datetime": "2016-Nov-15 16:45:22",
+    "mt_gm_cortical_mean": "1.468",
+    "mt_gm_cortical_std": "0.051", 
+    "mt_gm_subcortical_mean": "0.518", 
+    "mt_gm_subcortical_std": "0.042", 
+    "mt_wm_cortical_mean": "0.567", 
+    "mt_wm_cortical_std": "0.036",
+    "mt_wmlesions_mean": "0.515", 
+    "mt_wmlesions_std": "0.073"
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>pcasl_raw report</title>
+    </head>
+    <body>
+        <center>
+            <h1>pcasl_raw report</h1>
+            <p><b>Output version: </b><b>filtered</b>
+        </center>
+        <hr>
+        <p><b>GLOBAL CBF: </b><b>33.213359</b></p>
+        <hr>
+        <p>total perfusion volumes: 117.0</p>
+        <p>volumes in filtered series:  111.0</p>
+        <p>volumes discarded by filtering: 6.0, std filtering: 6.0, mean filtering: 0.0, std_criterion: 2.25, overfiltering_criterion: 2</p>
+        <hr>
+        <p><b>MCFLIRT Motion correction</b></p>
+        <br>
+        <ol>
+            
+            <li><br><IMG BORDER=0 SRC=pcasl_raw_dir/rot.png></IMG></li>
+            
+            <li><br><IMG BORDER=0 SRC=pcasl_raw_dir/trans.png></IMG></li>
+            
+            <li><br><IMG BORDER=0 SRC=pcasl_raw_dir/disp.png></IMG></li>
+            
+            <li><br><IMG BORDER=0 SRC=pcasl_raw_dir/mean_perf.png></IMG></li>
+            
+        </ol>
+        <hr>
+        <ul>
+            <li> <p><b>Brain Extracted CBF (sagittal, coronal, horizontal)</b></p> </li>
+            <IMG BORDER=0 SRC=pcasl_raw_dir/cbf_brain_hcs.png></IMG>
+            <li> <p><b>Brain Extracted CBF (horizontal sections)</b></p> </li>
+            <IMG BORDER=0 SRC=pcasl_raw_dir/cbf_brain_h.png></IMG>
+            <li> <p><b>Non-brain structures (horizontal sections)</b></p> </li>
+            <IMG BORDER=0 SRC=pcasl_raw_dir/scalp_h.png></IMG>
+            <li> <p><b>Discarded CBF images (avg)</b></p> </li>
+            <IMG BORDER=0 SRC=pcasl_raw_dir/discarded_cbf_hcs.png></IMG>
+        </ul>
+        
+    </body>
+</html>
